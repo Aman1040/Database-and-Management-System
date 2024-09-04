@@ -1,0 +1,16 @@
+SQL> commit;
+
+Commit complete.
+
+SQL> spool off;
+SQL> select *  from tab;
+
+no rows selected
+
+SQL> spool
+currently spooling to C:\Users\aman\Desktop\desktop\5sem\DBMS\lab1.LST
+SQL> select * from tab;
+
+no rows selected
+
+SQL> spool off;
